@@ -1,0 +1,27 @@
+Database Design:
+
+This involves creating a schema or blueprint for the database, defining tables, columns, relationships, and constraints.
+
+A good design ensures data consistency, reduces redundancy, and supports efficient queries.
+
+Key steps include:
+
+Identifying entities (tables) and attributes (columns).
+
+Establishing relationships between entities (e.g., one-to-many or many-to-many).
+
+Defining primary and foreign keys to ensure unique identification and table linking.
+
+Normalization:
+
+Normalization is the process of organizing data to reduce redundancy and improve integrity.
+
+It involves dividing a table into smaller tables and defining relationships between them.
+
+Key forms include:
+
+1NF (First Normal Form): Ensures each cell contains a single value, and rows are uniquely identifiable.
+
+2NF (Second Normal Form): Builds on 1NF and removes partial dependencies, where non-key attributes depend on part of a composite primary key.
+
+3NF (Third Normal Form): Eliminates transitive dependencies, ensuring attributes are directly dependent only on the primary key.
